@@ -1,0 +1,63 @@
+name: 智能ABC
+b: b
+c: c
+d: d
+f: f
+g: g
+h: h
+j: j
+k: k
+l: l
+m: m
+n: n
+p: p
+q: q
+r: r
+s: s
+t: t
+w: w
+x: x
+y: y
+z: z
+ch: e
+sh: v
+zh: a
+a: a
+ai: l
+an: j
+ang: h
+ao: k
+e: e
+ei: q
+en: f
+eng: g
+i: i
+ia: d
+ian: w
+iang: t
+iao: z
+ie: x
+iong: s
+in: c
+ing: y
+iu: r
+o: o
+ong: s
+ou: b
+u: u
+ua: d
+uai: c
+uan: p
+uang: t
+ue: mv
+ui: m
+un: n
+uo: o
+v: v
+ve: mv
+# 零声母 o | *
+leader	:	o
+# (leader) + r => er
+leader_er	:	r
+# e + r => er
+split_er	:	1
